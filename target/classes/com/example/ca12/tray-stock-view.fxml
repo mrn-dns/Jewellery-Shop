@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane stylesheets="@style.css" maxHeight="1000" maxWidth="1000" minHeight="-Infinity" minWidth="-Infinity" prefHeight="394.0" prefWidth="563.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TrayStockView">
+   <children>
+      <Label layoutX="47.0" layoutY="27.0" text="Trays">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="returnButton" layoutX="447.0" layoutY="33.0" mnemonicParsing="false" onAction="#returnStock" text="Main Menu" />
+      <ListView fx:id="trayListView" layoutX="47.0" layoutY="97.0" prefHeight="243.0" prefWidth="477.0" />
+      <Button layoutX="247.0" layoutY="355.0" mnemonicParsing="false" onAction="#returnToCases" text="&lt;--" />
+      <Button layoutX="282.0" layoutY="355.0" mnemonicParsing="false" onAction="#goToJewels" text="--&gt;" />
+   </children>
+</Pane>

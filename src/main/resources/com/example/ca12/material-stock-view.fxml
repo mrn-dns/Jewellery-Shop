@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane stylesheets="@style.css" maxHeight="1000" maxWidth="1000" minHeight="-Infinity" minWidth="-Infinity" prefHeight="394.0" prefWidth="563.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MaterialStockView">
+   <children>
+      <Label layoutX="47.0" layoutY="27.0" text="Materials">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="returnButton" layoutX="447.0" layoutY="33.0" mnemonicParsing="false" onAction="#returnStock" text="Main Menu" />
+      <ListView fx:id="materialListView" layoutX="47.0" layoutY="97.0" prefHeight="239.0" prefWidth="478.0" />
+      <Button layoutX="265.0" layoutY="355.0" mnemonicParsing="false" onAction="#returnToJewels" text="&lt;--" />
+   </children>
+</Pane>

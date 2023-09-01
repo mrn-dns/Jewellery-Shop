@@ -1,0 +1,89 @@
+<object-stream>
+  <utils.GenLinkedList>
+    <head>
+      <next>
+        <contents class="models.DisplayCase">
+          <trays>
+            <head>
+              <next>
+                <contents class="models.DisplayTray">
+                  <jewels>
+                    <head>
+                      <contents class="models.JewelleryItem">
+                        <materials>
+                          <head>
+                            <next>
+                              <contents class="models.Material">
+                                <description>Silver</description>
+                                <weight>23</weight>
+                                <quality>2</quality>
+                              </contents>
+                            </next>
+                            <contents class="models.Material">
+                              <description>Gold</description>
+                              <weight>23</weight>
+                              <quality>2</quality>
+                            </contents>
+                          </head>
+                          <temp reference="../head"/>
+                        </materials>
+                        <description>Shiny Ring</description>
+                        <type>Ring</type>
+                        <gender>Female</gender>
+                        <image>a</image>
+                        <price>45</price>
+                      </contents>
+                    </head>
+                    <temp reference="../head"/>
+                  </jewels>
+                  <id>A12</id>
+                  <color>RED</color>
+                  <width>23</width>
+                  <depth>23</depth>
+                </contents>
+              </next>
+              <contents class="models.DisplayTray">
+                <jewels>
+                  <temp>
+                    <contents class="models.JewelleryItem">
+                      <materials>
+                        <head>
+                          <contents class="models.Material">
+                            <description>Platinum</description>
+                            <weight>5</weight>
+                            <quality>2</quality>
+                          </contents>
+                        </head>
+                        <temp reference="../head"/>
+                      </materials>
+                      <description>Shiny Necklace</description>
+                      <type>Necklace</type>
+                      <gender>Male</gender>
+                      <image>t</image>
+                      <price>67</price>
+                    </contents>
+                  </temp>
+                </jewels>
+                <id>B12</id>
+                <color>YELLOW</color>
+                <width>23</width>
+                <depth>23</depth>
+              </contents>
+            </head>
+            <temp reference="../head"/>
+          </trays>
+          <id>1</id>
+          <freestd>false</freestd>
+          <lit>true</lit>
+        </contents>
+      </next>
+      <contents class="models.DisplayCase">
+        <trays/>
+        <id>2</id>
+        <freestd>false</freestd>
+        <lit>true</lit>
+      </contents>
+    </head>
+    <temp reference="../head"/>
+  </utils.GenLinkedList>
+</object-stream>

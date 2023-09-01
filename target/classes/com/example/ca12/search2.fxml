@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane stylesheets="@style.css" maxHeight="1000" maxWidth="1000" minHeight="-Infinity" minWidth="-Infinity" prefHeight="394.0" prefWidth="563.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Search2Controller">
+   <children>
+      <Label layoutX="241.0" layoutY="27.0" text="Results">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="returnButton" layoutX="447.0" layoutY="33.0" mnemonicParsing="false" onAction="#returnSearch" text="Main Menu" />
+      <Button layoutX="268.0" layoutY="323.0" mnemonicParsing="false" onAction="#goBackSearch" text="&lt;--" />
+      <ListView fx:id="searchResultsList" layoutX="55.0" layoutY="90.0" prefHeight="214.0" prefWidth="453.0" />
+   </children>
+</Pane>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane stylesheets="@style.css" fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainViewController">
+   <children>
+      <Button fx:id="addTrayButton" layoutX="407.0" layoutY="144.0" mnemonicParsing="false" onAction="#openTrayMenu" prefHeight="38.0" prefWidth="82.0" text="Add Tray" />
+      <Label layoutX="206.0" layoutY="27.0" text="Jewellery Store">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="addCaseButton" layoutX="115.0" layoutY="144.0" mnemonicParsing="false" onAction="#openCaseMenu" prefHeight="38.0" prefWidth="82.0" text="Add Case" />
+      <Button fx:id="addJewelleryButton" layoutX="102.0" layoutY="281.0" mnemonicParsing="false" onAction="#openJewelleryMenu" prefHeight="38.0" prefWidth="108.0" text="Add Jewellery" />
+      <Line endX="-100.0" endY="133.59999084472656" layoutX="400.0" layoutY="83.0" startX="-100.0" />
+      <Line endX="-100.0" endY="169.8000030517578" layoutX="143.0" layoutY="60.0" startX="125.0" startY="169.79998779296875" />
+      <Line endX="-100.0" endY="169.8000030517578" layoutX="435.0" layoutY="60.0" startX="125.0" startY="169.79998779296875" />
+      <Label layoutX="110.0" layoutY="82.0" text="Case Menu">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="402.0" layoutY="82.0" text="Tray Menu">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="245.0" text="Jewellery Menu">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="deleteJewelleryButton" layoutX="102.0" layoutY="330.0" mnemonicParsing="false" onAction="#deleteJewelleryMenu" prefHeight="38.0" prefWidth="108.0" text="Delete Jewellery" />
+      <Line endX="-100.0" endY="133.59999084472656" layoutX="400.0" layoutY="245.0" startX="-100.0" />
+      <Label layoutX="420.0" layoutY="245.0" text="Others">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="320.0" layoutY="281.0" mnemonicParsing="false" text="View Stock" onAction="#openStockMenu" />
+      <Button layoutX="318.0" layoutY="337.0" mnemonicParsing="false" text="Value Stock" onAction="#showTotalValue"/>
+      <Button layoutX="421.0" layoutY="281.0" mnemonicParsing="false" text="Search" onAction="#openSearchMenu" />
+      <Button layoutX="507.0" layoutY="281.0" mnemonicParsing="false" text="Save" onAction="#saveAllData" />
+      <Button layoutX="506.0" layoutY="337.0" mnemonicParsing="false" text="Load" onAction="#loadAllData" />
+      <Button layoutX="424.0" layoutY="337.0" mnemonicParsing="false" text="Reset" onAction="#resetAll" />
+   </children>
+</Pane>
